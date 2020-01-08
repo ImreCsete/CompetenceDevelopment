@@ -33,6 +33,9 @@
     <ClCompile Include="Image.cpp">
       <Filter>DataEntries</Filter>
     </ClCompile>
+    <ClCompile Include="Image_trait.cpp">
+      <Filter>Traits</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="User.h">

@@ -2,8 +2,6 @@
 
 #include <string>
 
-//std::cout << SQLGenerator<Image>::insert({ Image(1, 1, "fESGsseg==", 1024, 768) }) << std::endl; // INSERT INTO image (id, user_id, data, width, height) VALUES (1, 1, "fESGsseg==", 1024, 768);
-
 namespace StaticTemplate
 {
 	namespace DataEntries
