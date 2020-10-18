@@ -40,8 +40,11 @@ class CardEncoder(JSONEncoder):
 
 mana = Mana("1G", 2)
 types = Types("Creature", "Snake")
-rules_text = "Landfall — Whenever a land enters the battlefield under your control, add one mana of any color."
+rules_text = "Landfall - Whenever a land enters the battlefield under your control, add one mana of any color."
 set_details = SetDetails("Zendikar Rising", 193)
 snek = MtGCard("Lotus Cobra", mana, types, rules_text, "2/1", set_details, "Rare")
 
 print(CardEncoder().encode(snek))
+
+cardJSONData = json.dumps(snek, indent=4, cls=CardEncoder)
+print(cardJSONData)
