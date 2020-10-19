@@ -3,6 +3,7 @@
 // Used by MFCDialogDemo.rc
 //
 #define IDD_DIALOG1                     101
+#define IDD_EXAMPLE_DLG                 101
 
 // Next default values for new objects
 // 
